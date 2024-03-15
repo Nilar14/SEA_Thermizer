@@ -157,7 +157,8 @@ r14 <- data.frame(year = years,"r50-500" = rep(NA, length(year)))
 r15 <- data.frame(year = years,"r50-400" = rep(NA, length(year)))
 
 
-r1$r0.300 <- mean(GFDL_temp$X2.5)
+r1[1,2] <- rowMeans(GFDL_temp[1,2:13])
+
 
 
 
