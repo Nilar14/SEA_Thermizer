@@ -1,1 +1,1 @@
-# SEA_Thermizer
+# SEA_TherMizer
