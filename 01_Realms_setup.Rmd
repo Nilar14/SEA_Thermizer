@@ -143,7 +143,7 @@ for (r in seq(1,length(realm_names),1)) {
 save(vertical_migration_array, file = "SEAus_vertical_migration_array.Rdata")
 write.table(exposure_array, file = "SEAus_exposure_array.dat", quote = FALSE, row.names = TRUE, col.names = TRUE)
 
-
+hgg
 
 # area paramter in Cami's model is based on polygon on google map and it was a much wider polygon - multiplied the area by max depth (area parameter is larger ) - change the area according to the input.
 
